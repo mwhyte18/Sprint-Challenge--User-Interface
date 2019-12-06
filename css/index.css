@@ -70,7 +70,32 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/* Nav section */
+nav{
+	display: flex;
+	width: 95%;
+	height: 10vh;
+	justify-content: space-between;
+    align-items: center;
+    
+}
+nav a{
+	color: black;
+	text-decoration: none;
+}
+nav a img{
+    margin: 0 0 10% 0;
+}
+/*Header Section*/
+.imageHeader{
+	display: flex;
+	width: 100%;
+	height: 18vh;
+	flex-direction: column;
+	justify-content: space-around;
+    align-items: center;
+}
+/*Top Section*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -80,11 +105,44 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    width: 47%;
+    padding: 3% 1% 0 0;
+    padding-bottom: 20px;
+    height: 21vh;  
 }
 
+/*Box Section*/
+.box:nth-of-type(1){
+    background-color: teal;
+}
+.box:nth-of-type(2){
+    background-color: gold;}
+.box:nth-of-type(3){
+    background-color: cadetblue;
+}
+.box:nth-of-type(4){
+    background-color: coral;
+}
+.box:nth-of-type(5){
+    background-color: crimson;
+}
+.box:nth-of-type(6){
+    background-color: forestgreen;
+}
+.box:nth-of-type(7){
+    background-color: darkorchid;
+}
+.box:nth-of-type(8){
+    background-color: hotpink;
+}
+.box:nth-of-type(9){
+    background-color: indigo;
+}
+.box:nth-of-type(10){
+    background-color: dodgerblue;
+}
+
+/*Header Section*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,7 +162,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -129,6 +186,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    height: 6vh;
 }
 
 footer nav {
@@ -143,4 +201,62 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    margin: 0 0 7% 0;
+
+}
+/*about section*/
+/*about top section*/
+.top-content1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.top-content1 .text-container {
+    width: 95%;
+    padding: 3% 0 0 0;
+    padding-bottom: 20px;
+    height: 15vh;  
+}
+/*about boxes section*/
+.aboutBoxes{
+	display: flex;
+	width: 97%;
+	height: 105vh;
+	justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 4% 0 0 2%;
+    
+}
+.aboutBoxes div{
+	width: 48%;
+	height: 47vh;
+    border-bottom: 1px dashed black;   
+}
+
+.aboutBoxes a{
+	border: 2px solid black;
+	background-color: white;
+	padding: 2.5% 7.5%;
+	margin: 90% 0 0 0;
+	text-decoration: none;
+	border-radius: 8px;
+	color: black;
+    font-size: 16px;
+}
+
+/*bottom Section*/
+.top-content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.top-content2 .text-container {
+    width: 95%;
+    padding-bottom: 20px;
+    height: 13vh;  
 }

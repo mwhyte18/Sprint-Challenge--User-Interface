@@ -73,10 +73,11 @@ p {
 /* Nav section */
 nav{
 	display: flex;
-	width: 100%;
+	width: 95%;
 	height: 10vh;
-	justify-content: space-around;
-	align-items: center;
+	justify-content: space-between;
+    align-items: center;
+    
 }
 nav a{
 	color: black;
@@ -107,7 +108,7 @@ nav a img{
     width: 47%;
     padding: 3% 1% 0 0;
     padding-bottom: 20px;
-    height: 23vh;  
+    height: 21vh;  
 }
 
 /*Box Section*/
@@ -222,32 +223,30 @@ footer nav a {
 /*about boxes section*/
 .aboutBoxes{
 	display: flex;
-	width: 93%;
-	height: 110vh;
+	width: 97%;
+	height: 105vh;
 	justify-content: space-between;
     flex-wrap: wrap;
+    margin: 4% 0 0 2%;
     
 }
 .aboutBoxes div{
-	width: 47%;
-	height: 50vh;
-	margin: 3% 0 3% 1% ;
-    padding: 3%;    
+	width: 48%;
+	height: 47vh;
+    border-bottom: 1px dashed black;   
 }
 
 .aboutBoxes a{
 	border: 2px solid black;
 	background-color: white;
-	padding: 3% 7.5%;
+	padding: 2.5% 7.5%;
 	margin: 90% 0 0 0;
 	text-decoration: none;
 	border-radius: 8px;
 	color: black;
     font-size: 16px;
 }
-.thin{
-    border-bottom: 1px dashed black;
-}
+
 /*bottom Section*/
 .top-content2 {
     display: flex;
@@ -258,7 +257,6 @@ footer nav a {
 
 .top-content2 .text-container {
     width: 95%;
-    padding: 3% 0 0 0;
     padding-bottom: 20px;
-    height: 15vh;  
+    height: 13vh;  
 }
